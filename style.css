@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  background-color: grey;
+  flex-direction: row;
+  /* align-items: flex-end;  */
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: arial;
+  color: aqua;
+}
+.header {
+  text-align: center;
+  font-size: 15px;
+  font-family: arial;
+  background-color: aquamarine;
+  height: 30px;
+}
+p {
+  text-align: center;
+  font-family: arial;
+}
+.footer {
+  text-align: center;
+  font-size: 15px;
+  font-family: arial;
+  background-color: aquamarine;
+  height: 30px;
+}
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+}
